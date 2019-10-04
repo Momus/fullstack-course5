@@ -1,0 +1,13 @@
+body {
+    font-family: serif;
+    background-color: #f2eecb;
+}
+
+h1 {
+    font-family: helvetica;
+    font-size: 1.5em;
+}
+footer {
+    font-size: .80em;
+    font-weight: lightest;
+}
