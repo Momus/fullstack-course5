@@ -1,3 +1,6 @@
+
+* 
+
 * The idea of this assignment
   create a front-end application that presents the user with a textbox
   where they can list comma-separated items they usually eat for
@@ -26,33 +29,51 @@
     somewhere next to the input textbox stating that you do NOT
     consider and empty item, i.e., `, ,` as an item towards to the
     count.
-*   ### Rules
+* Rules
   Breaking one of these rules will cause you to fail the assignment:
 *** You are not allowed to use regular HTML `onclick` attribute
     to bind behavior to the button. You **must** use the AngularJS way of binding behavior.
 *** At no point should your Javascript code look up *anything* in the DOM of the browser.
 
-  
-* [1/12] Steps
+* Browser Sync
+  #+BEGIN_SRC sh :results verbatim
+  browser-sync start --server --files "**.*" &
+  #+END_SRC
+
+  #+RESULTS:
+  #+begin_example
+  [Browsersync] Access URLs:
+   -------------------------------------
+         Local: http://localhost:3000
+      External: http://192.168.0.23:3000
+   -------------------------------------
+            UI: http://localhost:3001
+   UI External: http://localhost:3001
+   -------------------------------------
+  [Browsersync] Serving files from: ./
+  [Browsersync] Watching files...
+  #+end_example
+
+* [3/12] Steps
   Here is what you will need to do to complete the assignment:
   - [X] 1. (If you haven’t already) Create a GitHub.com account and a
     repository that you will use for this class.
-  - [ ] (If you haven’t already) Follow the Development Setup Video
+  - [X] (If you haven’t already) Follow the Development Setup Video
     (beginning of Module 1) instructions on how to create a repository
     and set it up such that you can host and view your finished web
     pages on GitHub Pages, i.e., GitHub.io domain name. You will need
     to provide that URL for your peer review.
-  - [ ] Create a folder in your repository that will serve as a
+  - [X] Create a folder in your repository that will serve as a
     container folder for your solution to this assignment. You can
     call it whatever you want. For example, `module1-solution` or
     `mod1_solution`, etc.
-  - You can do this by 'cloning' your repository with `git clone
-    https://www.github.com/your_repo_url` to your local machine,
-    creating `module1-solution` folder in the root of the repository
-    directory along with a README.txt inside of the `module1-solution`
-    directory. Then, you would do `git add .`, followed by `git commit
-    -m 'New folder'`, followed by `git push` to upload the new folder
-    with the README.txt to the GitHub repository.
+    - You can do this by 'cloning' your repository with `git clone
+      https://www.github.com/your_repo_url` to your local machine,
+      creating `module1-solution` folder in the root of the repository
+      directory along with a README.txt inside of the `module1-solution`
+      directory. Then, you would do `git add .`, followed by `git commit
+      -m 'New folder'`, followed by `git push` to upload the new folder
+      with the README.txt to the GitHub repository.
   - [ ] HTML/CSS for the assignment
     - [ ] * Option 1: Copy the **contents** of the folder
       `assignment1-starter-code` into the newly created folder from
